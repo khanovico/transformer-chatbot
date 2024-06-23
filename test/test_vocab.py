@@ -14,7 +14,7 @@ import pytest
 class TestVocab(object):
     @pytest.fixture
     def vocab(self):
-        train, valid, train_y, valid_y, corpus = load_data('./rsc/data/chatbot_korean.csv')
+        train, valid, train_y, valid_y, corpus = load_data('./rsc/data/chatbot_english.csv')
         vocab = Vocabulary(corpus=corpus)
         vocab.build_vocab()
 

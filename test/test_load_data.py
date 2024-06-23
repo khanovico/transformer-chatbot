@@ -11,7 +11,7 @@ import pytest
 class TestLoadData(object):
     @pytest.fixture
     def file_path(self):
-        return './rsc/data/chatbot_korean.csv'
+        return './rsc/data/chatbot_english.csv'
 
     @pytest.fixture
     def target_file_type(self):

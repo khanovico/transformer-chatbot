@@ -59,7 +59,7 @@ def get_loader(question: list,
 
 if __name__ == '__main__':
     pass
-    # train, valid, train_y, valid_y, corpus = load_data('../rsc/data/chatbot_korean.csv')
+    # train, valid, train_y, valid_y, corpus = load_data('../rsc/data/chatbot_english.csv')
     # vocab = Vocabulary(corpus)
     # vocab.build_vocab()
     # loader = get_loader(train, train_y, vocab, 128, 32, True)
