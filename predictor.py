@@ -1,5 +1,5 @@
 """
-Author: Jude Park <judepark@kookmin.ac.kr>
+Author: KhanovicAI
 Predictor do the inference by given trained model.
 """
 
